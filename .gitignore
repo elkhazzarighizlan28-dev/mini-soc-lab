@@ -1,0 +1,26 @@
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+.env
+.streamlit/secrets.toml
+
+# Python environment and cache
+.venv/
+__pycache__/
+.pytest_cache/
+*.pyc
+
+# Secrets and editor temporary files
+.env
+.streamlit/secrets.toml
+.streamlit/.secrets.toml*
+*.swp
+
+# Local logs and generated reports
+logs/
+reports/security_report.txt
+
+# Local backups and agent configuration
+main_backup.py
+.agents/
